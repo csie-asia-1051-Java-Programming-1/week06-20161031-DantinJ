@@ -1,9 +1,10 @@
 ﻿package ex;
 import java.util.Scanner;
 /*
- * Topic: 使用者輸入兩個整數，透過函數呼叫輸出排列組合函數 C(m,n)。公式: C(m,n) = m!/n!(m-n)!
+ * Topic: 使用者輸入兩個整數，透過函數呼叫輸出排列組合函數 C(m,n)。
+ * 公式: C(m,n) = m!/n!(m-n)!
  * Date: 2016/10/31
- * Author: 1050210XX 周永振老師
+ * Author: 105021034 周宇晟
  */
 
 public class ex02 {
@@ -39,7 +40,7 @@ public class ex02 {
 			z=z*a;
 			a=a-1;
 		}
-		sum = x/y*z;
+		sum = x/(y*z);
 		return sum;
 	}
 
